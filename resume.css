@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#main-nav{
+
+}
+
+#main-nav ul{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+h1, h4, h3, para{
+    text-align: center;
+    padding: 5px;
+    color: crimson;
+}
+
+.para{
+    padding: 15px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+/* table */
+/* table, th, td {
+    border: 1px solid;
+} */
+
+.skills{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience, 
+.project,
+.edu{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.project{
+
+}
+
+.edu{
+
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: blanchedalmond;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.footer a{
+   text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
